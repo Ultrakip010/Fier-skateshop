@@ -1,0 +1,189 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  margin-top: 1.5rem;
+}
+
+nav {
+  width: 100%;
+  height: 20%;
+}
+nav ul {
+  display: flex;
+  margin-top: -5px;
+  align-items: center;
+  float: right;
+  height: 5rem;
+  width: 100%;
+  justify-content: space-between;
+  border: 1px solid;
+  letter-spacing: 0.1rem;
+  /* .right{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+  } */
+}
+nav ul .right {
+  display: flex;
+}
+nav ul .right li .search-bar {
+  display: none; /* Initially hidden */
+  position: relative;
+  margin-left: 1rem;
+}
+nav ul .right li .search-bar input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 150px;
+}
+nav ul .right li .search-bar button {
+  padding: 8px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 5px;
+}
+nav ul li {
+  display: flex;
+  margin-right: 1rem;
+  list-style: none;
+}
+nav ul li a {
+  display: flex;
+  color: #000000;
+  text-decoration: none;
+}
+nav ul li a:hover {
+  color: #ff0000;
+}
+nav ul li a .logo {
+  width: 5rem;
+  height: auto;
+  margin-left: 2rem;
+}
+nav ul li a img {
+  float: left;
+  width: 2.5rem;
+  height: auto;
+}
+
+.hero {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  background-image: url("/Fier-skateshop/hero.png");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero .hero-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ff0000;
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+}
+
+footer {
+  background-color: #333; /* Dark gray background */
+  color: #fff; /* White text color */
+  padding: 20px; /* Add some padding */
+  clear: both; /* Clear any floats */
+}
+
+footer.container {
+  max-width: 1200px; /* Limit the width */
+  margin: 0 auto; /* Center the container */
+  padding: 20px; /* Add some padding */
+}
+
+footer.row {
+  display: flex; /* Use flexbox for layout */
+  flex-wrap: wrap; /* Allow wrapping */
+  justify-content: space-between; /* Space out the columns */
+}
+
+footer.col-md-4 {
+  flex-basis: 33.33%; /* Set the column width */
+  margin: 20px; /* Add some margin */
+}
+
+footer.footer-logo {
+  width: 100px; /* Set the logo width */
+  height: auto; /* Auto height */
+  margin: 20px; /* Add some margin */
+}
+
+footer.social-links {
+  list-style: none; /* Remove bullet points */
+  padding: 0; /* Remove padding */
+  margin: 0; /* Remove margin */
+}
+
+footer.social-links li {
+  display: inline-block; /* Display inline */
+  margin-right: 10px; /* Add some margin */
+}
+
+footer.social-links a {
+  color: #fff; /* White text color */
+  text-decoration: none; /* Remove underline */
+}
+
+footer.social-links a:hover {
+  color: #ccc; /* Light gray hover color */
+}
+
+footer h4 {
+  font-weight: bold; /* Bold font weight */
+  margin-top: 0; /* Remove top margin */
+}
+
+footer ul {
+  list-style: none; /* Remove bullet points */
+  padding: 0; /* Remove padding */
+  margin: 0; /* Remove margin */
+}
+
+footer li {
+  margin-bottom: 10px; /* Add some margin */
+}
+
+footer a {
+  color: #fff; /* White text color */
+  text-decoration: none; /* Remove underline */
+}
+
+footer a:hover {
+  color: #ccc; /* Light gray hover color */
+}
+
+footer.copyright {
+  background-color: #444; /* Darker gray background */
+  padding: 10px; /* Add some padding */
+  text-align: center; /* Center the text */
+  clear: both; /* Clear any floats */
+}
+
+footer.copyright p {
+  margin: 0; /* Remove margin */
+}
+
+/*# sourceMappingURL=main.css.map */

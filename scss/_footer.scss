@@ -1,0 +1,84 @@
+footer {
+  background-color: #333; /* Dark gray background */
+  color: #fff; /* White text color */
+  padding: 20px; /* Add some padding */
+  clear: both; /* Clear any floats */
+}
+
+footer.container {
+  max-width: 1200px; /* Limit the width */
+  margin: 0 auto; /* Center the container */
+  padding: 20px; /* Add some padding */
+}
+
+footer.row {
+  display: flex; /* Use flexbox for layout */
+  flex-wrap: wrap; /* Allow wrapping */
+  justify-content: space-between; /* Space out the columns */
+}
+
+footer.col-md-4 {
+  flex-basis: 33.33%; /* Set the column width */
+  margin: 20px; /* Add some margin */
+}
+
+footer.footer-logo {
+  width: 100px; /* Set the logo width */
+  height: auto; /* Auto height */
+  margin: 20px; /* Add some margin */
+}
+
+footer.social-links {
+  list-style: none; /* Remove bullet points */
+  padding: 0; /* Remove padding */
+  margin: 0; /* Remove margin */
+}
+
+footer.social-links li {
+  display: inline-block; /* Display inline */
+  margin-right: 10px; /* Add some margin */
+}
+
+footer.social-links a {
+  color: #fff; /* White text color */
+  text-decoration: none; /* Remove underline */
+}
+
+footer.social-links a:hover {
+  color: #ccc; /* Light gray hover color */
+}
+
+footer h4 {
+  font-weight: bold; /* Bold font weight */
+  margin-top: 0; /* Remove top margin */
+}
+
+footer ul {
+  list-style: none; /* Remove bullet points */
+  padding: 0; /* Remove padding */
+  margin: 0; /* Remove margin */
+}
+
+footer li {
+  margin-bottom: 10px; /* Add some margin */
+}
+
+footer a {
+  color: #fff; /* White text color */
+  text-decoration: none; /* Remove underline */
+}
+
+footer a:hover {
+  color: #ccc; /* Light gray hover color */
+}
+
+footer.copyright {
+  background-color: #444; /* Darker gray background */
+  padding: 10px; /* Add some padding */
+  text-align: center; /* Center the text */
+  clear: both; /* Clear any floats */
+}
+
+footer.copyright p {
+  margin: 0; /* Remove margin */
+}
