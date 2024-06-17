@@ -1,0 +1,25 @@
+.products {
+  max-width: 1200px; /* Limit the width */
+  margin: 40px auto; /* Add some margin and center the section */
+  padding: 20px; /* Add some padding */
+  .product-grid {
+    display: flex; /* Use flexbox to create a grid */
+    flex-wrap: wrap; /* Allow the grid to wrap to the next row */
+    justify-content: center; /* Center the products horizontally */
+    .product {
+      flex-basis: 30%; /* Set the width of each product to 30% */
+      margin: 20px; /* Add some margin around each product */
+      text-align: center; /* Center the product content horizontally */
+      img {
+        width: 100%; /* Make the image take up the full width of the product */
+        height: 200px; /* Set a fixed height for the image */
+        object-fit: cover; /* Make the image cover the entire area */
+        border-radius: 10px; /* Add a slight border radius to the image */
+      }
+      &:hover {
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add a subtle box shadow on hover */
+        transform: scale(1.05); /* Scale the product up slightly on hover */
+      }
+    }
+  }
+}

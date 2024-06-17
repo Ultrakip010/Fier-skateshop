@@ -16,9 +16,10 @@
     height: 100%;
     background-color: rgba(0, 0, 0, 0.5);
     display: flex;
-    justify-content: center;
-    align-items: center;
-    color: $primary;
+    flex-direction: column; /* Make elements stack vertically */
+    justify-content: center; /* Center the content within the overlay */
+    align-items: center; /* Center the content horizontally */
+    color: #ff0000;
     font-size: 36px;
     font-weight: bold;
     text-align: center;
